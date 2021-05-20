@@ -1,0 +1,63 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    font-family: Helvetica;
+    font-style: italic;
+    color: #FFF8E7;
+    position: absolute; 
+}
+
+.texto0 {
+    width: 100%;
+    top: 25%;
+    height: 50%;
+    text-align: center;
+    font-size: 30vh;
+    z-index: 3;
+}
+
+.texto00en {
+    top: 5vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+.texto00fr {
+    top: 38vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+.texto00pt {
+    top: 71vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+
+.video0 {
+    top: -0vh;
+    left: -2vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: relative;
+}
+
+.video0wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
