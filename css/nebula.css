@@ -1,0 +1,252 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    font-family: Helvetica;
+    font-style: italic;
+    color: #FFF8E7;
+    position: absolute; 
+}
+
+.texto0 {
+    width: 100%;
+    top: 25%;
+    height: 50%;
+    text-align: center;
+    font-size: 30vh;
+    z-index: 3;
+}
+
+/* ESTILOS DOS TEXTOS EM INGLÊS */
+
+.texto00en {
+    top: 5vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+/* ESTILOS DOS TEXTOS EM FRANCÊS */
+
+.texto00fr {
+    top: 38vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+/* ESTILOS DOS TEXTOS EM PORTUGUÊS */
+
+.texto00pt {
+    top: 71vh;
+    height: 33vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 20vh;
+}
+
+.texto01pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto02pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto03pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto04pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto05pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto06pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto07pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 8vw;
+}
+
+.texto071pt {
+    top: 55vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 12vw;
+}
+
+.texto08pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto09pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto10pt {
+    top: 30vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 12vw;
+}
+
+.texto11pt {
+    top: 35vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 9vw;
+}
+
+.texto12pt {
+    top: 35vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 9vw;
+}
+
+.texto13pt {
+    top: 0vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 35vw;
+}
+
+.texto14pt {
+    top: 30vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 10vw;
+}
+
+.texto15pt {
+    top: 35vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 7vw;
+}
+
+.texto16pt {
+    top: 35vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 9vw;
+}
+
+.texto17pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto18pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto19pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.texto20pt {
+    top: 25vh;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    font-size: 30vh;
+}
+
+.video0 {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    margin: 0px; 
+    padding: 0px; 
+    height: 100%; 
+    border: none;
+}
