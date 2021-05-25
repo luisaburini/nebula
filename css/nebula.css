@@ -8,6 +8,7 @@
     font-style: italic;
     color: #FFF8E7;
     position: absolute; 
+    display: none;
 }
 
 .texto0 {
@@ -17,39 +18,43 @@
     text-align: center;
     font-size: 30vh;
     z-index: 3;
+    display: block!important;
 }
 
 /* ESTILOS DOS TEXTOS EM INGLÊS */
 
 .texto00en {
-    top: 5vh;
+    top: 2vh;
     height: 33vh;
     text-align: center;
     width: 100%;
     z-index: 3;
     font-size: 20vh;
+    display: block!important;
 }
 
 /* ESTILOS DOS TEXTOS EM FRANCÊS */
 
 .texto00fr {
-    top: 38vh;
+    top: 35vh;
     height: 33vh;
     text-align: center;
     width: 100%;
     z-index: 3;
     font-size: 20vh;
+    display: block!important;
 }
 
 /* ESTILOS DOS TEXTOS EM PORTUGUÊS */
 
 .texto00pt {
-    top: 71vh;
+    top: 66vh;
     height: 33vh;
     text-align: center;
     width: 100%;
     z-index: 3;
     font-size: 20vh;
+    display: block!important;
 }
 
 .texto01pt {
@@ -239,6 +244,7 @@
     width: 100%;
     z-index: 3;
     font-size: 30vh;
+    display: block!important;
 }
 
 .video0 {
@@ -246,7 +252,32 @@
     height: 100%;
     z-index: 0;
     margin: 0px; 
-    padding: 0px; 
-    height: 100%; 
+    padding: 0px;  
     border: none;
 }
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+    
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

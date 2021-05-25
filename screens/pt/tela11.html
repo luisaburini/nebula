@@ -1,14 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="../../css/nebula.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <a href="./tela12.html"><div class="texto texto11pt">observa-se embrião com</div></a>
+        <a href="./tela12.html"><div id="texto11pt" class="texto texto11pt">observa-se embrião com</div></a>
 
-        <div class="video00wrapper">
-            <iframe class="video0" src="https://player.vimeo.com/video/546731077?autoplay=1&loop=1&autopause=0&muted=1&background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        
+        <div class="video-container">
+            <video autoplay loop>
+                <source src="../../videos/pt/TELA 11 PT - MINIMUNDO 3 2.mp4" type="video/mp4">
+            </video>
         </div>
+       <audio controls autoplay loop hidden="true">
+            <source src="../../audios/AUDIO 00 BASE DE TODOS OS QUADROS.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio> 
+        <audio id="audio11pt" controls autoplay hidden="true" onended="onEndedAudio11pt()">
+            <source src="../../audios/pt/audio 11 PT.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio> 
+        <script type="text/javascript" src="../../js/actions.js"></script>
     </body>
 
 </html>
